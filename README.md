@@ -1,79 +1,48 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+{\rtf1\ansi\ansicpg1252\cocoartf2758
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Bold;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww16700\viewh12520\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-# Getting Started
+\f0\fs24 \cf0 Voodoo iOS Founding Engineer Test - Project Summary\
+\
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+\f1\b\fs26 Project Overview:
+\f0\b0\fs24 \
+\
+The application developed focuses on sharing 'real' pictures with close friends and maintaining a shared collection of memories. The core feature set allows users to send pictures to unlock chat functionalities, promoting genuine interaction. The chat locks after 24 hours without a photo, encouraging regular engagement.\
+\
 
-## Step 1: Start the Metro Server
+\f1\b Technical Decisions and Approaches:
+\f0\b0 \
+\
+- Implemented a custom conversation feed blurred when last photo sent was over 24 hours ago.\
+- Ensured seamless user experience by allowing photos to be selected with a long press and subsequent selections with simple taps.\
+- Introduced a footer component visible during photo selection for sharing images in conversations.\
+- Utilized state management to track selected photos and user interactions.\
+\
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+\f1\b UI/UX Considerations:
+\f0\b0 \
+\
+- While the primary focus was on product functionality, considerations were made for an intuitive UI.\
+- Interactions were designed to be simple yet engaging, fostering a photo-centric chat experience.\
+- Efforts were made to ensure the interface was visually appealing, with attention to selection indicators and navigation clarity.\
+\
 
-To start Metro, run the following command from the _root_ of your React Native project:
+\f1\b Potential Future Features:
+\f0\b0 \
+\
+- Utilize NLP to recognize when users mention specific moments in conversations, surfacing relevant memories.\
+- Detect organizational patterns for events, creating albums and reminders to capture photos during the event.\
+\
 
-```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+\f1\b Reflections:
+\f0\b0 \
+\
+- Although the current UI/UX serves the product concept, there is room for improvement to enhance user delight.\
+- The product concept is compelling, emphasizing authentic sharing and communication among close friends.\
+\
+Thank you for considering this submission. I look forward to any feedback and the opportunity to discuss the project further.\
+}
